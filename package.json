@@ -23,8 +23,8 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "cypress": "^3.4.1",
-    "eslint": "^7.14.0",
-    "stylelint": "^9.10.1",
+    "eslint": "^7.16.0",
+    "stylelint": "^13.7.0",
     "stylelint-config-recommended": "^2.2.0"
   }
 }
