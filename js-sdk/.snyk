@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - eslint > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - eslint > table > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > table > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-25T23:25:30.435Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-25T23:25:30.435Z'
