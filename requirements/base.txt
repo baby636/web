@@ -1,7 +1,7 @@
 bs4
 ccxt
 cryptocompare==0.6
-cryptography==2.3
+cryptography==3.2
 celery==4.4.0
 django-celery-beat==1.1.1
 django==2.2.4
@@ -14,10 +14,10 @@ gitterpy
 gunicorn
 matplotlib
 Markdown==3.2.1
-reportlab==3.5.6
+reportlab==3.5.55
 requests
 requests_oauthlib
-Pillow==4.0.0
+Pillow==9.0.1
 premailer
 populus
 psycopg2-binary==2.7.5
