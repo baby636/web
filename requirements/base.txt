@@ -1,10 +1,10 @@
 bs4
 ccxt
 cryptocompare==0.6
-cryptography==2.3
+cryptography==3.2
 celery==4.4.0
 django-celery-beat==1.1.1
-django==2.2.4
+django==3.2.15
 django-cors-headers==2.4.0
 django-filter==2.0.0
 django-haystack
@@ -71,7 +71,7 @@ django-cacheops==4.0.7
 django-redis==4.10.0
 collectfast==0.6.2
 django-health-check==3.7.0
-elastic-apm==3.0.1
+elastic-apm==5.1.0
 mkdocs==1.0.4
 pymdown-extensions==5.0
 mkdocs-material==3.0.4
