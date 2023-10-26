@@ -1,7 +1,7 @@
 bs4
 ccxt
 cryptocompare==0.6
-cryptography==2.3
+cryptography==41.0.5
 celery==4.4.0
 django-celery-beat==1.1.1
 django==2.2.4
@@ -103,3 +103,4 @@ ed25519
 tweepy
 oogway==0.7.0
 icalendar==4.0.7
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
