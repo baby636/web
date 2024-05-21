@@ -1,3 +1,4 @@
 -r base.txt
 ipfshttpclient==0.4.13
 
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
