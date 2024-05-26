@@ -22,9 +22,9 @@
   "homepage": "https://github.com/gitcoinco/web#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "cypress": "^3.4.1",
-    "eslint": "^7.14.0",
-    "stylelint": "^9.10.1",
+    "cypress": "^5.0.0",
+    "eslint": "^9.0.0",
+    "stylelint": "^16.1.0",
     "stylelint-config-recommended": "^2.2.0"
   }
 }
