@@ -14,3 +14,4 @@ django-test-plus==1.1.1
 git+https://github.com/google/yapf.git#egg=yapf
 django-debug-toolbar
 ipfshttpclient==0.6.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
